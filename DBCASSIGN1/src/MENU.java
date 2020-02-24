@@ -13,7 +13,7 @@ public class MENU {
                     "Press 5 to exit program ");
             Scanner s = new Scanner(System.in);
             int n = s.nextInt();
-            Contacts obj = new Contacts();
+            Contact obj = new Contact();
 
             if (n == 1) {
                 obj.addcontact();
